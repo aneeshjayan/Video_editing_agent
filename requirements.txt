@@ -1,0 +1,17 @@
+# Core AI / Agents
+crewai[tools]>=0.108.0
+openai>=1.0
+
+# Video Processing
+ffmpeg-python>=0.2.0
+opencv-python>=4.8.0
+Pillow>=10.0
+requests>=2.31.0
+
+# UI
+streamlit>=1.40
+
+# Config / Utils
+pydantic>=2.0
+pydantic-settings>=2.0
+python-dotenv>=1.0

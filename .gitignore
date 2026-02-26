@@ -1,0 +1,51 @@
+# Environment & secrets
+.env
+.env.local
+.env.*.local
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Linting / testing cache
+.ruff_cache/
+.pytest_cache/
+.mypy_cache/
+
+# Build artifacts
+*.egg-info/
+dist/
+build/
+
+# Virtual environments
+.venv/
+venv/
+venv1/
+
+# Temp files & media output
+tmp/
+frames/
+*.mp4
+*.mov
+*.avi
+*.mkv
+*.webm
+*.jpg
+*.jpeg
+*.png
+!tests/fixtures/*.mp4
+!tests/fixtures/*.jpg
+!tests/fixtures/*.png
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Claude Code local settings
+.claude/
